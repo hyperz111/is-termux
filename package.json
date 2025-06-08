@@ -1,0 +1,33 @@
+{
+  "name": "is-termux",
+  "version": "0.1.0",
+  "description": "Check if you run in Termux environment",
+  "main": "index.cjs",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "require": "./index.cjs",
+      "import": "./index.js"
+    }
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "files": [
+    "./index.*"
+  ],
+  "keywords": [
+    "check",
+    "checking",
+    "termux",
+    "android",
+    "linux",
+    "terminal",
+    "emulator"
+  ],
+  "author": "Hyper-Z11",
+  "license": "MIT"
+}
