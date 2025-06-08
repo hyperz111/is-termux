@@ -1,6 +1,6 @@
 # is-termux
 
-Check if you run in Termux environment.
+Check if you run in [Termux](https://termux.dev/en/) environment.
 
 ## Install
 
