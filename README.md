@@ -34,10 +34,6 @@ Check if you run in Termux environment.
 
 Return: `boolean`
 
-## License
-
-MIT
-
 ## Copyright
 
-Copyright © 2025-Present [Hyper-Z11](https://github.com/hyperz111/). All rights reserved.
+Copyright © 2025-Present [Hyper-Z11](https://github.com/hyperz111/). Licensed under [MIT License](https://opensource.org/license/mit/).
