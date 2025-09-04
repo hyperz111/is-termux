@@ -10,29 +10,19 @@ $ npm install is-termux
 
 ## Usage
 
-If you use ES Module Syntax
-
 ```js
 import isTermux from 'is-termux';
 
 isTermux(); // => "true" if you in Termux
 ```
 
-If you use CommonJS Module Syntax
-
-```js
-const isTermux = require('is-termux');
-
-isTermux(); // => "true" if you in Termux
-```
-
 ## API
 
-### isTermux()
-
-Check if you run in Termux environment.
+### `isTermux()`
 
 Return: `boolean`
+
+Check if you run in Termux environment.
 
 ## Copyright
 
