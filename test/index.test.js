@@ -3,6 +3,7 @@ import isTermux from "../dist/index.js";
 import { describe, test } from "node:test";
 import assert from "node:assert/strict";
 
+// TODO: Update tests
 (async () => {
 	await test('Must Return \"true\" If You In Termux', () => {
 		// Manipulating
