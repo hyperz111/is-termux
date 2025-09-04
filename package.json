@@ -1,41 +1,51 @@
 {
-  "name": "is-termux",
-  "version": "0.1.1",
-  "description": "Check if you run in Termux environment",
-  "main": "index.cjs",
-  "module": "index.js",
-  "types": "index.d.ts",
-  "type": "module",
-  "exports": {
-    ".": {
-      "types": "./index.d.ts",
-      "require": "./index.cjs",
-      "import": "./index.js"
-    }
-  },
-  "scripts": {
-    "test": "node --test"
-  },
-  "files": [
-    "./index.*"
-  ],
-  "keywords": [
-    "check",
-    "checking",
-    "termux",
-    "android",
-    "linux",
-    "terminal",
-    "emulator"
-  ],
-  "author": "Hyper-Z11",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hyperz111/is-termux.git"
-  },
-  "bugs": {
-    "url": "https://github.com/hyperz111/is-termux/issues"
-  },
-  "homepage": "https://github.com/hyperz111/is-termux#readme"
+	"name": "is-termux",
+	"version": "0.1.1",
+	"description": "Check if you run in Termux environment",
+	"main": "./dist/index.js",
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"type": "module",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"import": "./dist/index.js"
+		}
+	},
+	"scripts": {
+		"test": "pnpm run build && node --test",
+		"build": "tsc",
+		"publint": "publint",
+		"format": "prettier -w **/*.{js*,ts} !dist"
+	},
+	"files": [
+		"dist"
+	],
+	"keywords": [
+		"check",
+		"checking",
+		"termux",
+		"android",
+		"linux",
+		"terminal",
+		"emulator"
+	],
+	"author": "Hyper-Z11 (https://github.com/hyperz111)",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hyperz111/is-termux.git"
+	},
+	"bugs": {
+		"url": "https://github.com/hyperz111/is-termux/issues"
+	},
+	"homepage": "https://github.com/hyperz111/is-termux#readme",
+	"packageManager": "pnpm@10.13.1",
+	"devDependencies": {
+		"@hyperz111/prettier-config": "^0.1.1",
+		"@types/node": "^24.3.0",
+		"prettier": "^3.6.2",
+		"publint": "^0.3.12",
+		"typescript": "^5.9.2"
+	}
 }
