@@ -2,14 +2,11 @@
 	"name": "is-termux",
 	"version": "1.0.0",
 	"description": "Check if you run in Termux environment",
-	"main": "./dist/index.js",
-	"module": "./dist/index.js",
-	"types": "./dist/index.d.ts",
 	"type": "module",
 	"exports": {
 		".": {
 			"types": "./dist/index.d.ts",
-			"import": "./dist/index.js"
+			"default": "./dist/index.js"
 		}
 	},
 	"scripts": {
