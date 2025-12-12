@@ -39,7 +39,7 @@
 	"homepage": "https://github.com/hyperz111/is-termux#readme",
 	"packageManager": "pnpm@10.13.1",
 	"devDependencies": {
-		"@hyperz111/prettier-config": "^0.1.1",
+		"@hyperz111/prettier-config": "^1.0.0",
 		"@types/node": "^24.3.0",
 		"prettier": "^3.6.2",
 		"publint": "^0.3.12",
